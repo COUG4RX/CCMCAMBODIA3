@@ -1,0 +1,21 @@
+.side-bar-control {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #ffffff !important;
+    .sidebar-left {
+        height: auto;
+        margin-right: 20px;
+        border-right: 1px solid #396b8c;
+        position: sticky;
+        top: 10%;
+        bottom: 10%;
+        .bar a {
+            padding: 15px 25px;
+        }
+        .bar a:hover {
+            background: rgba(0, 0, 0, 0.052);
+            transition: 0.1s;
+        }
+    }
+}
