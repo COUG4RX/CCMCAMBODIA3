@@ -56,3 +56,5 @@ Route::get('/page/media/news', [WebsiteController::class, 'News'])->name ('news'
 Route::get('/page/media/video', [WebsiteController::class, 'Video'])->name ('video');
 Route::get('/page/media/gallry', [WebsiteController::class, 'Gallary'])->name ('gallary');
 Route::get('/page/contact-us', [WebsiteController::class, 'ContactUs'])->name ('contact-us');
+Route::get('/page/view-detail-01', [WebsiteController::class, 'ViewDetailOne'])->name ('view-detail-01');
+Route::get('/page/view-detail-02', [WebsiteController::class, 'ViewDetailTwo'])->name ('view-detail-02');

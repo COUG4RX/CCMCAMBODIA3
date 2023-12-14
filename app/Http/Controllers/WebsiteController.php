@@ -126,5 +126,11 @@ class WebsiteController extends Controller
     public function ContactUs(){
         return view('website.contact-us.contact-us');
     }
+    public function ViewDetailOne(){
+        return view('website.view-details.detail-01');
+    }
+    public function ViewDetailTwo(){
+        return view('website.view-details.detail-02');
+    }
 
 }

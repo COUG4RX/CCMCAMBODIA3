@@ -1,0 +1,32 @@
+// Extra small devices (portrait phones, less than 576px)
+// sm 
+@media (max-width: 575.98px) {
+    
+}
+
+// Small devices (landscape phones, 576px and up)
+// md 
+@media (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+// lg 
+@media (max-width: 991.98px) {
+    .responsive-text-drop-down{
+        font-size: 12px !important;
+    }
+}
+// large devices ( desktops, 1200px and up)
+// xl
+@media (max-width: 1199.98px) {
+    .responsive-text-drop-down{
+        font-size: 12px !important;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+// xxl
+@media (min-width: 1200px) {
+    
+}

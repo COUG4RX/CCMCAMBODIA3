@@ -1,6 +1,6 @@
 <section>
     <div class="container my-5 m-auto">
-        <div class="swiper mySwiper ">
+        <div class="swiper mySwiper">
             <div class="swiper-wrapper h-[410px] mt-3">
 
                 <div class="swiper-slide grid grid-cols-3 justify-between  ">
@@ -78,7 +78,8 @@
             </div>
             
             <div class="grid grid-cols-3 gap-5">
-                <div class="card">
+
+                <a href="{{route('view-detail-01')}}" class="card">
                     <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
@@ -93,8 +94,8 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="card">
+                </a>
+                <a href="{{route('view-detail-02')}}" class="card">
                     <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
@@ -112,8 +113,8 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="card">
+                </a>
+                <a href="{{route('view-detail-01')}}" class="card">
                     <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
@@ -128,8 +129,8 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="card">
+                </a>
+                <a href="{{route('view-detail-02')}}" class="card">
                     <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
@@ -144,8 +145,8 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="card">
+                </a>
+                <a href="{{route('view-detail-01')}}" class="card">
                     <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
@@ -160,8 +161,8 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="card">
+                </a>
+                <a href="{{route('view-detail-02')}}" class="card">
                     <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
@@ -176,7 +177,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="head-titles text-center mt-14">

@@ -5,12 +5,13 @@ $route_prefix = $route_name[0];
 ?>
 
 <header>
-    <div class="banner container-fluid">
-        <div class="banner-content container grid grid-cols-3 gap-10 m-auto justify-between">
-            <div class="website-logo col-span-2 col">
+    <!-- banner  -->
+    <div class="banner container-fluid bg-white">
+        <div class="banner-content container grid grid-cols-3 sm:grid-cols-3 lg:gap-10 m-auto h-auto justify-between">
+            <div class="website-logo col-span-3 px-14 py-5 sm:col-span-3 md:col-span-3 lg:col-span-2 xl:col-span-2 sm:px-8 xs:px-10 lg:py-5">
                 <img src="{{asset('assets/img/Logo/logo-website.png')}}" alt="">
             </div>
-            <div class="language flex items-center justify-end">
+            <div class="language flex justify-center col-span-3  pb-5 sm:col-span-3 sm:justify-center sm:items-center md:justify-center md:items-center lg:col-span-1 lg:justify-end lg:items-center sm:pb-3 xl:col-span-1 xl:justify-end">
                 <a href="#" class="english text-red-600"><span>English</span></a>
                 <span class="px-3 text-gray-600"> | </span>
                 <a href="#" class="khmer text-indigo-800 hover:text-red-600"><span>ខ្មែរ</span></a>
@@ -18,12 +19,13 @@ $route_prefix = $route_name[0];
         </div>
     </div>
 
+    <!-- navbar  -->
     <nav class="navbar header">
         <div class="navbar-menu m-auto px-2 sm:px-6 lg:px-8 ">
-            <div class="relative container m-auto flex h-16 items-center justify-between">
+            <div class="relative container m-auto flex h-16 items-center justify-betwee">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                     <!-- Mobile menu button-->
-                    <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                    <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                         <span class="absolute -inset-0.5"></span>
                         <span class="sr-only">Open main menu</span>
                         <!--
@@ -31,27 +33,27 @@ $route_prefix = $route_name[0];
 
             Menu open: "hidden", Menu closed: "block"
           -->
-                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <svg class="block md:block h-7 w-7 text-white gap-3 bg-transparent" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
                         <!--
             Icon when menu is open.
 
             Menu open: "block", Menu closed: "hidden"
-          -->
-                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          --> 
+                        <svg class="hidden md:block h-6 w-6 bg-transparent " fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </button>
                 </div>
-                <div class="flex flex-1 w-[100%] items-center justify-between ps-0">
-                    <div class="hidden sm:block">
+                <div class="flex flex-1 justify-between ps-0 ">
+                    <div class="hidden sm:hidden md:block lg-block xl:block">
                         <div class="container flex gap-3">
-                            <a href="{{route('homepage') }}" class="text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold  isset($route_name[1]) && $route_name[1] == 'homepage' ? 'active' : ''  }}" aria-current="page">Home</a>
+                            <a href="{{route('homepage') }}" class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold  isset($route_name[1]) && $route_name[1] == 'homepage' ? 'active' : ''  }}" aria-current="page">Home</a>
                             <!-- About CCC -->
                             <div class="relative group dropdown">
                                 <!-- Main Dropdown -->
-                                <button class=" text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold {{ isset($route_name[0]) && $route_name[0] == 'about' ? 'active' : '' }}">
+                                <button class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold {{ isset($route_name[0]) && $route_name[0] == 'about' ? 'active' : '' }}">
                                     About CCC <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <!-- Sub Dropdown -->
@@ -86,7 +88,7 @@ $route_prefix = $route_name[0];
                             <!-- Committess -->
                             <div class="relative group dropdown">
                                 <!-- Main Dropdown -->
-                                <button class=" text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">
+                                <button class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">
                                     Committess <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <!-- Sub Dropdown -->
@@ -112,7 +114,7 @@ $route_prefix = $route_name[0];
                             <!-- Document -->
                             <div class="relative group dropdown">
                                 <!-- Main Dropdown -->
-                                <button class=" text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">
+                                <button class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">
                                     Document <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <!-- Sub Dropdown -->
@@ -168,7 +170,7 @@ $route_prefix = $route_name[0];
                             <!-- GFATM Grant -->
                             <div class="relative group dropdown">
                                 <!-- Main Dropdown -->
-                                <button class=" text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">GFATM Grant
+                                <button class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">GFATM Grant
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <!-- Sub Dropdown -->
@@ -184,7 +186,7 @@ $route_prefix = $route_name[0];
                             <!-- Principal Recipients -->
                             <div class="relative group dropdown">
                                 <!-- Main Dropdown -->
-                                <button class=" text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">
+                                <button class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">
                                     Principal Recipients <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <!-- Sub Dropdown -->
@@ -225,14 +227,14 @@ $route_prefix = $route_name[0];
                             </div>
 
                             <!-- Activity -->
-                            <a href="{{route('activity')}}" class="text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold" aria-current="page">Activity</a>
+                            <a href="{{route('activity')}}" class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold" aria-current="page">Activity</a>
                             <!-- Career  -->
-                            <a href="{{route('career')}}" class="text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold" aria-current="page">Career</a>
+                            <a href="{{route('career')}}" class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold" aria-current="page">Career</a>
 
                             <!-- Media  -->
                             <div class="relative group dropdown">
                                 <!-- Main Dropdown -->
-                                <button class=" text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">Media
+                                <button class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold">Media
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <!-- Sub Dropdown -->
@@ -244,45 +246,24 @@ $route_prefix = $route_name[0];
                             </div>
 
                             <!-- Contact Us  -->
-                            <a href="{{route('contact-us')}}" class="text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold me-40" aria-current="page">Contact Us</a>
-
-                            <!-- search bar  -->
-                            <div class="mx-auto text-end m-auto">
-                                <div class="relative">
-                                    <i id="search-icon" class="cursor-pointer text-white fas fa-search relative z-[100] text-lg pe-2"></i>
-                                    <input id="search-bar" class="hidden absolute top-0 right-0 p-1 text-sm rounded-3xl ps-2 placeholder-gray-500 focus:outline-none z-[90]" type="text" placeholder="Search">
-                                </div>
-                            </div>
+                            <a href="{{route('contact-us')}}" class="responsive-text-drop-down text-white hover:text-sky-400 rounded-md py-3 text-sm font-bold" aria-current="page">Contact Us</a>
 
                         </div>
                     </div>
                 </div>
-                <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
-                    <!-- Profile dropdown -->
-                    <div class="relative ml-3">
-                        <!--
-            Dropdown menu, show/hide based on menu state.
-            Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"-->
+                <!-- search bar  -->
+                <div class="pt-2">
+                    <div class="relative h-auto sm:right-0 justify-end">
+                        <i id="search-icon" class="search-icon cursor-pointer text-white fas fa-search relative z-[100] text-lg pe-2"></i>
+                        <input id="search-bar" class="hidden absolute top-0 right-0 p-1 text-sm rounded-3xl ps-2 placeholder-gray-500 focus:outline-none z-[90]" type="text" placeholder="Search">
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="sm:hidden" id="mobile-menu">
-            <div class="space-y-1 px-2 pb-3 pt-2">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-                <a href="#" class="text-white  hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-                <a href="#" class="text-white  hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-                <a href="#" class="text-white  hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-            </div>
+        <div class="sm:hidden responsive-menu" id="mobile-menu">
+            
         </div>
     </nav>
 </header>
