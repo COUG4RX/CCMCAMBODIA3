@@ -7,9 +7,9 @@
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
-            <p class="text-gray-500 ps-10"> All CCC members are expected to attend CCC meetings and contribute actively in accordance with their roles as CCC members, and in line with their resources and areas of expertise.
+            <p class="text-gray-500 ps-5 xl:ps-10"> All CCC members are expected to attend CCC meetings and contribute actively in accordance with their roles as CCC members, and in line with their resources and areas of expertise.
                 CCC members have the following responsibilities:</p>
-            <ol class="ol-text px-20 paragraph-ccc text-gray-500 list-decimal pb-14">
+            <ol class="ol-text px-10 xl:px-20 paragraph-ccc text-gray-500 list-decimal pb-14">
                 <!-- #1  -->
                 <li>
                     <span>

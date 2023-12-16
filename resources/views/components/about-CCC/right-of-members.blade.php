@@ -7,8 +7,8 @@
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
-            <p class="text-gray-500 ps-10">CCC members have the following rights:</p>
-            <ol class="ol-text px-20 paragraph-ccc text-gray-500 list-decimal pb-10">
+            <p class="text-gray-500 ps-5 xl:ps-10">CCC members have the following rights:</p>
+            <ol class="ol-text px-10 xl:px-20 paragraph-ccc text-gray-500 list-decimal pb-10">
                 <!-- #1  -->
                 <li>
                     <span>

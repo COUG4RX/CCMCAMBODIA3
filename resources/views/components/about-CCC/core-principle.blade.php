@@ -8,7 +8,7 @@
                 <div class="hr my-5"></div>
             </div>
 
-            <ol class="ol-text ps-28 pe-12 paragraph-ccc text-gray-500 pb-20 list-decimal">
+            <ol class="ol-text ps-16 pe-8 xl:ps-28 xl:pe-12 paragraph-ccc text-gray-500 pb-20 list-decimal">
                 <!-- #1  -->
                 <li>
                     <span>

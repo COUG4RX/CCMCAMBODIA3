@@ -7,7 +7,7 @@
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
-            <ol class="ol-text px-20 list-decimal paragraph-ccc text-gray-500">
+            <ol class="ol-text px-10 lg:px-20 list-decimal paragraph-ccc text-gray-500">
                 <!-- #1  -->
                 <li>
                     <span>
@@ -99,7 +99,7 @@
                     </span>
                 </li>
             </ol><br>
-            <div class="paragraph-ccc text-gray-500 px-10">
+            <div class="paragraph-ccc text-gray-500 px-5 xl:px-10">
                 <span>CCC members should provide feedback on the draft minutes within two weeks after the draft minutes are distributed. If no response is given by the member during that period, that shall be considered as endorsement of the minutes by the members. </span><br><br>
                 <span>An ad hoc meeting may be called by the CCC Chair to discuss specific matters of importance to the CCC at shorter intervals and labeled accordingly. All members should receive the agenda and meeting documents by email, letter or facsimile at least three working days prior to each ad-hoc CCC meeting. At least one representative of each constituency is encouraged to participate in the ad hoc meetings. An ad hoc meeting may prepare decisions for approval of the entire CCC by email. The proposed decisions shall be in both English and Khmer.</span><br><br><br>
             </div>

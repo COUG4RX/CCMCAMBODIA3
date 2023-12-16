@@ -8,7 +8,7 @@
                 <div class="hr my-5"></div>
             </div>
 
-            <div class="terms-of-ref-para px-14">
+            <div class="terms-of-ref-para px-6 xl:px-14">
                 <!-- 1 -->
                 <div>
                     <span class="font-bold text-gray-600">1. Purpose</span><br><br>

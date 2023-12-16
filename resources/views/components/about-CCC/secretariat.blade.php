@@ -8,7 +8,7 @@
                 <div class="hr my-5"></div>
             </div>
 
-            <ol class="px-20 text-gray-500 list-decimal">
+            <ol class="px-10 xl:px-20 text-gray-500 list-decimal">
                 <li>
                     <span>The CCC shall establish a Secretariat headed by a Secretariat Manager. The Secretariat Manager and the CCC Secretariat shall execute the day-to-day functions as delegated by the CCC.</span>
                 </li>
@@ -22,7 +22,7 @@
             </ol><br>
 
 
-            <div class="paragraph-ccc px-10">
+            <div class="paragraph-ccc px-5 xl:px-10">
                 <span class="text-gray-600 font-bold">Support in the development of Concept Notes and Funding Requests:</span>
                 <span class="text-gray-500">Proactively facilitate and coordinate development of concept notes and funding requests to the Global Fund with the CCC and the Concept note development Task Force</span><br>
                 <span class="text-gray-600 font-bold">Support in Principal Recipient Nomination:</span>
@@ -32,7 +32,7 @@
                 </span>
                 <span class="text-gray-500">implementation:</span><br><br>
 
-                <ol style="list-style-type: lower-roman;" class="text-gray-500 ps-20">
+                <ol style="list-style-type: lower-roman;" class="text-gray-500 ps-10 xl:ps-20">
                     <li>
                         <span>
                             Manage oversight visits and meetings, including minute taking and reports to CCC

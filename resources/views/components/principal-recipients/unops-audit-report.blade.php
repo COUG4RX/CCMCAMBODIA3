@@ -8,7 +8,7 @@
                 <div class="hr my-5"></div>
             </div>
 
-            <div class="paragraph-ccc mt-5 px-20">
+            <div class="paragraph-ccc mt-5 px-10 xl:px-20">
 
                 <ol class="text-gray-500 list-decimal" style="font-size: 18px;">
                     <li>

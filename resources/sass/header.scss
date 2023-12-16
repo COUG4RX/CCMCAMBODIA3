@@ -1,58 +1,70 @@
-
-
-.banner{
-    .banner-content{
-      .language{
-        .english, .khmer{
-          font-weight: 700;
+.banner {
+    .banner-content {
+        .language {
+            .english,
+            .khmer {
+                font-weight: 700;
+            }
         }
-      }
     }
 }
-.navbar{
-  background-color: $signature-color;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  .dropdown{
-    z-index: 1000;
-    .dropdown-menu a{
-      color: $dropdown-text-color;
-    }
-    .dropdown-hvr{
-      transition: 0.4s !important;
-    }
-    .sub-dropdown{
-      .sub-dropdown-menu{
-        width: 100% !important;
-        &:hover .double-sub-dropdown{
-          display: block;
+.navbar {
+    background-color: $signature-color;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .dropdown {
+        z-index: 1000;
+        .dropdown-menu a {
+            color: $dropdown-text-color;
         }
-      }
-      .sub-dropdown-menu a:hover .angle-right-icon i{
-        color: #00B2FF;
-      }
-      .sub-dropdown-menu a:hover .hvr-color{
-        color: #00B2FF;
-      }
-      .double-sub-dropdown{
-        display: none;
-        animation: mymove 0.4s ease-in-out;
-      }
-      @keyframes mymove {
-        from {
-          left:93% !important;
-          opacity: 85%;
+        .dropdown-hvr {
+            transition: 0.4s !important;
         }
-        to {
-          right: 0% !important;
-          opacity: 100%;
+        .sub-dropdown {
+            .sub-dropdown-menu {
+                width: 100% !important;
+                &:hover .double-sub-dropdown {
+                    display: block;
+                }
+            }
+            .sub-dropdown-menu a:hover .angle-right-icon i {
+                color: #00b2ff;
+            }
+            .sub-dropdown-menu a:hover .hvr-color {
+                color: #00b2ff;
+            }
+            .double-sub-dropdown {
+                display: none;
+                animation: mymove 0.4s ease-in-out;
+            }
+            @keyframes mymove {
+                from {
+                    left: 93% !important;
+                    opacity: 85%;
+                }
+                to {
+                    right: 0% !important;
+                    opacity: 100%;
+                }
+            }
         }
-      }
     }
-  }
 }
-.header.fixedheader {
-  position: fixed;
-  top: 0;
-  animation: fadeIndown 0.9s ease-in-out;
-  z-index: 999;
+
+.navbar-scroll {
+    transition: background-color 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    animation: fadeIndown 0.9s ease-in-out;
+    z-index: 999999;
+    width: 100%;
+    @keyframes fadeIndown {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, -100%, 0);
+        }
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
 }

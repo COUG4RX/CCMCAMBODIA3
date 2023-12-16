@@ -1,26 +1,80 @@
 // Extra small devices (portrait phones, less than 576px)
-// sm 
+// sm
 @media (max-width: 575.98px) {
-    
+    .swiper {
+        .swiper-slide {
+            width: 100%;
+            height: 300px !important;
+            text-align: center;
+            font-size: 18px;
+            background: #396b8c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .swiper-slide-img {
+                width: 100% !important;
+            }
+            .text-responsive {
+                position: absolute;
+                width: 100%;
+                height: 100px;
+                bottom: 0;
+                background: linear-gradient(
+                    0deg,
+                    rgba(57, 107, 140, 1) 6%,
+                    rgba(0, 0, 0, 0.11257002801120453) 100%
+                    
+                );
+                // h5{
+                //     font-size: 13px;
+                // }
+            }
+        }
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
-// md 
+// md
 @media (max-width: 767.98px) {
-
+    .swiper {
+        .swiper-slide {
+            width: 100%;
+            height: 350px;
+            text-align: center;
+            font-size: 18px;
+            background: #396b8c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .swiper-slide-img {
+                width: 100% !important;
+            }
+            .text-responsive {
+                position: absolute;
+                width: 100%;
+                height: 100px;
+                bottom: 0;
+                background: linear-gradient(
+                    0deg,
+                    rgba(57, 107, 140, 1) 6%,
+                    rgba(0, 0, 0, 0.11257002801120453) 100%
+                );
+            }
+        }
+    }
 }
 
 // Medium devices (tablets, 768px and up)
-// lg 
+// lg
 @media (max-width: 991.98px) {
-    .responsive-text-drop-down{
+    .responsive-text-drop-down {
         font-size: 12px !important;
     }
 }
 // large devices ( desktops, 1200px and up)
 // xl
 @media (max-width: 1199.98px) {
-    .responsive-text-drop-down{
+    .responsive-text-drop-down {
         font-size: 12px !important;
     }
 }
@@ -28,5 +82,4 @@
 // Extra large devices (large desktops, 1200px and up)
 // xxl
 @media (min-width: 1200px) {
-    
 }

@@ -8,7 +8,7 @@
                 <div class="hr my-5"></div>
             </div>
 
-            <div class="structure-img flex justify-center flex-col items-center mt-5 px-10">
+            <div class="structure-img flex justify-center flex-col items-center mt-5 px-5 xl:px-10">
                 <img src="{{asset('assets/img/About-CCC/structure-img-01.png')}}" alt="">
                 <img src="{{asset('assets/img/About-CCC/structure-img-02.jpg')}}" alt="">
                 <img src="{{asset('assets/img/About-CCC/structure-img-03.jpg')}}" alt="">

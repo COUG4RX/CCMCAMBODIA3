@@ -1,10 +1,12 @@
 <section>
+    <!-- swiper  -->
     <div class="container my-5 m-auto">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper h-[410px] mt-3">
+        <!-- desktop -->
+        <div class="swiper mySwiper hidden md:block lg:block xl:block">
+            <div class="swiper-wrapper mt-3">
 
-                <div class="swiper-slide grid grid-cols-3 justify-between  ">
-                    <div class="bg-control-text flex justify-start w-[500px] pt-3 ps-5">
+                <div class="swiper-slide grid grid-cols-3 justify-between">
+                    <div class="bg-control-text flex justify-start w-[700px] pt-3 ps-5">
                         <div class="swiper-slide-text mt-5 ms-4 top-0 ">
                             <div class="border-control">
                                 <p></p>
@@ -14,17 +16,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide-img col-span-2 w-[700px]">
+                    <div class="swiper-slide-img col-span-2 w-[100%]">
                         <img src="{{ asset('assets/img/Slider/img-01-slide.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide grid grid-cols-3 justify-between ">
-                    <div class="bg-control-text flex justify-start w-[500px] pt-3 ps-5">
+                    <div class="bg-control-text flex justify-start w-[700px] pt-3 px-5">
                         <div class="swiper-slide-text mt-5 ms-4 top-0 ">
-                            <div class="border-control">
+                            <div class="border-control px-2">
                                 <p></p>
-                                <h5 class="font-bold text-white text-start ps-3 ">His Excellency Hem Vanndy, Chair of CCC</h5><br>
-                                <p class="ps-3 px-4 text-sm text-start text-white">His Excellency Hem Vanndy chaired the Country Dialogue (on 22-23 January 2020 at Phnom Penh Hotel), the open and inclusive forum for all stakeholders, communities, CSOs, donors and DPs to develop new Funding Request Applications for HIV/AIDS, Tuberculosis and Resilient and Sustainable System for Health in Cambodia for the period of 2021-2023.</p>
+                                <h5 class="font-bold text-white text-start">His Excellency Hem Vanndy, Chair of CCC</h5><br>
+                                <p class="text-sm text-start text-white">His Excellency Hem Vanndy chaired the Country Dialogue (on 22-23 January 2020 at Phnom Penh Hotel), the open and inclusive forum for all stakeholders, communities, CSOs, donors and DPs to develop new Funding Request Applications for HIV/AIDS, Tuberculosis and Resilient and Sustainable System for Health in Cambodia for the period of 2021-2023.</p>
                                 <p></p>
                             </div>
 
@@ -35,7 +37,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide grid grid-cols-3 justify-between ">
-                    <div class="bg-control-text flex justify-start w-[500px] pt-3 ps-5">
+                    <div class="bg-control-text flex justify-start w-[700px] pt-3 ps-5">
                         <div class="swiper-slide-text mt-5 ms-4 top-0 ">
                             <div class="border-control">
                                 <p></p>
@@ -53,6 +55,59 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
+
+        <!-- below desktop -->
+        <div class="swiper2 block lg:px-5 mt-10 md:hidden lg:hidden xl:hidden  ">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- slide 1 -->
+                    <div class="swiper-slide flex justify-between ">
+                        <div class="bg-control-text flex items-baseline">
+                            <div class="text-responsive">
+                                <div class="swiper-slide-text mt-4 ms-4 top-0">
+                                    <h5 class="font-bold text-white text-start ps-sm-1 pb-sm-5 line-clamp-1">His Excellency Hem Vanndy, Chair of CCC</h5>
+                                    <p class="hidden ps-3 px-4 fs-6 text-start text-white ">His Excellency Hem Vanndy chaired the Country Dialogue (on 22-23 January 2020 at Phnom Penh Hotel), the open and inclusive forum for all stakeholders, communities, CSOs, donors.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-img">
+                            <img src="{{ asset('assets/img/Slider/img-01-slide.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <!-- slide 2 -->
+                    <div class="swiper-slide flex justify-between ">
+                        <div class="bg-control-text flex items-baseline">
+                            <div class="text-responsive">
+                                <div class="swiper-slide-text mt-4 ms-4 top-0">
+                                    <h5 class="font-bold text-white text-start ps-sm-1 pb-sm-5 line-clamp-1">His Excellency Hem Vanndy, Chair of CCC</h5>
+                                    <p class="hidden ps-3 px-4 fs-6 text-start text-white ">His Excellency Hem Vanndy chaired the Country Dialogue (on 22-23 January 2020 at Phnom Penh Hotel), the open and inclusive forum for all stakeholders, communities, CSOs, donors.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-img">
+                            <img src="{{ asset('assets/img/Slider/img-02-slide.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <!-- slide 3 -->
+                    <div class="swiper-slide flex justify-between ">
+                        <div class="bg-control-text flex items-baseline">
+                            <div class="text-responsive">
+                                <div class="swiper-slide-text mt-4 ms-4 top-0">
+                                    <h5 class="font-bold text-white text-start ps-sm-1 pb-sm-5 line-clamp-1">7th CCC meeting 8 Sept 2022</h5>
+                                    <p class="hidden ps-3 px-4 fs-6 text-start text-white ">The 7th CCC meeting was held on 08 September 2022 and presided over by H.E. Mr. Hem Vanndy, CCC Chair. Excellency CCC Chair started the physical meeting by warmly welcoming all the participants, and asked the CCC Secretariat to confirm the quorum required for the meeting, then introduced agenda of the meeting for comment and adoption.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide-img">
+                            <img src="{{ asset('assets/img/Slider/img-03-slide.jpg')}}" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -62,25 +117,25 @@
             <div class="head-titles text-center">
                 <h1 class="font-extrabold">Home</h1>
             </div>
-            <div class="customize-hr flex justify-center">
+            <div class="customize-hr flex justify-center px-5">
                 <div class="hr my-5"></div>
             </div>
 
-            <div class="content-detail mt-4 mb-5">
+            <div class="content-detail mt-4 mb-5 px-5 lg:px-5 xl:px-0">
                 <span class="text-gray-500" style="font-size: 18px;">The CCC is a multi-sectoral national platform to coordinate and facilitate Global Fund activities to fight against HIV/AIDS, TB and malaria in Cambodia.The CCC is comprised of representatives of stakeholder constituenciesrepresented at the national level. The mandate of the CCC is to mobilize a national multi-sectoral response to develop and submit proposals to the Global Fund to scale up the fight against HIV/AIDS, TB and malaria, and to oversee and support the implementation of activities that are initiated by the CCC in line with national program priorities and supported by the Global Fund.The purpose of the CCC is to enhance performance of the Global Fund activities in Cambodia in partnership with stakeholder constituencies, to promote efficient program implementation, to avoid duplication by harmonizing Global Fund activities with other programs throughout Cambodia, and to strengthen coordination among stakeholder constituencies.</span>
             </div>
 
             <div class="head-titles text-center">
                 <h1 class="font-extrabold">News</h1>
             </div>
-            <div class="customize-hr flex justify-center mb-8">
+            <div class="customize-hr flex justify-center px-5">
                 <div class="hr my-5"></div>
             </div>
-            
-            <div class="grid grid-cols-3 gap-5">
+            <!-- card  -->
+            <div class="grid grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 gap-5 md:px-5 lg:px-5 xl:px-0">
 
-                <a href="{{route('view-detail-01')}}" class="card">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <a href="{{route('view-detail-01')}}" class="card col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <img class="w-full" src="{{asset('assets/img/Card/card-img-01.jpg')}}" alt="Sunset in the mountains">
@@ -95,8 +150,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="{{route('view-detail-02')}}" class="card">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <a href="{{route('view-detail-02')}}" class="card col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <img class="w-full" src="{{asset('assets/img/Card/card-img-02.jpg')}}" alt="Sunset in the mountains">
@@ -114,8 +169,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="{{route('view-detail-01')}}" class="card">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <a href="{{route('view-detail-01')}}" class="card col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <img class="w-full" src="{{asset('assets/img/Card/card-img-03.jpg')}}" alt="Sunset in the mountains">
@@ -130,8 +185,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="{{route('view-detail-02')}}" class="card">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <a href="{{route('view-detail-02')}}" class="card col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <img class="w-full" src="{{asset('assets/img/Card/card-img-04.jpg')}}" alt="Sunset in the mountains">
@@ -146,8 +201,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="{{route('view-detail-01')}}" class="card">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <a href="{{route('view-detail-01')}}" class="card col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <img class="w-full" src="{{asset('assets/img/Card/card-img-05.jpg')}}" alt="Sunset in the mountains">
@@ -162,8 +217,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="{{route('view-detail-02')}}" class="card">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <a href="{{route('view-detail-02')}}" class="card col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <img class="w-full" src="{{asset('assets/img/Card/card-img-06.jpg')}}" alt="Sunset in the mountains">
@@ -183,12 +238,13 @@
             <div class="head-titles text-center mt-14">
                 <h1 class="font-extrabold">Video</h1>
             </div>
-            <div class="customize-hr flex justify-center">
+            <div class="customize-hr flex justify-center px-5">
                 <div class="hr my-5 mb-14"></div>
             </div>
-            <div class="grid grid-cols-3">
-                <div class="card yt-link">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+
+            <div class="grid grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-5 md:px-5 lg:px-5 xl:px-0">
+                <div class="card yt-link col-span-3 sm:col-span-3 lg:col-span-1 ">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <iframe class="youtube-link w-full h-[250px]" src="https://www.youtube.com/embed/dEhTkM_cKUo?si=aN1TfvV6w8MrYlqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -199,8 +255,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card yt-link">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <div class="card yt-link col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <iframe class="youtube-link w-full h-[250px]" src="https://www.youtube.com/embed/gNn8JmxYJc0?si=DQzj68LmtaBAoANS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -211,8 +267,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card yt-link">
-                    <div class="max-w-sm overflow-hidden shadow-lg border w-[100%]">
+                <div class="card yt-link col-span-3 sm:col-span-3 lg:col-span-1">
+                    <div class="overflow-hidden shadow-lg border w-[100%]">
                         <div class="card-img">
                             <div class="card-img-hvr">
                                 <iframe class="youtube-link w-full h-[250px]" src="https://www.youtube.com/embed/uzMGQMFZHOs?si=tvV2TTVo8mN-d9dO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -232,20 +288,20 @@
                         <div class="head-titles text-center mt-14">
                             <h1 class="font-extrabold">Partner</h1>
                         </div>
-                        <div class="customize-hr flex justify-center">
+                        <div class="customize-hr flex justify-center px-5">
                             <div class="hr my-5 mb-14"></div>
                         </div>
 
-                        <div class="grid grid-cols-2 gap-10 pb-5 justify-start items-center mt-5 ms-0">
-                            <div class=" partner">
+                        <div class="grid grid-cols-2 gap-10 pb-5 justify-start items-center mt-5 ms-0 px-5 lg:px-5 xl:px-0">
+                            <div class="partner col-span-2 lg:col-span-1 xl:col-span-1">
                                 <img src="{{ asset('assets/img/partner/partner-logo-01.jpg')}}" alt="">
                             </div>
-                            <div class=" partner">
+                            <div class="partner col-span-2 lg:col-span-1 xl:col-span-1">
                                 <img src="{{ asset('assets/img/partner/partner-logo-02.jpg')}}" alt="">
                             </div>
                         </div>
 
-                        <div class="flex mb-10 gap-5">
+                        <div class="flex mb-10 gap-5 px-5 lg:px-5 xl:px-0">
                             <div class=" partner-two w-[130px] h-[120px] bg-white mt-3 ">
                                 <img src="{{ asset('assets/img/partner/partner-logo-03.png')}}" class="object-contain" alt="">
                             </div>
@@ -265,20 +321,20 @@
 
 <script type="module">
     var swiper = new Swiper(".mySwiper", {
-          slidesPreview: 1,
+        slidesPreview: 1,
         pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+            el: ".swiper-pagination",
+            clickable: true,
         },
-        loop:true,
-        speed:1000,
+        loop: true,
+        speed: 1000,
         centeredSlides: true,
         autoplay: {
-          delay: 3500,
-          disableOnInteraction: false,
+            delay: 3500,
+            disableOnInteraction: false,
         },
         keyboard: {
-          enabled: true,
+            enabled: true,
         },
-      });
+    });
 </script>

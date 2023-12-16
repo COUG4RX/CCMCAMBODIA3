@@ -7,7 +7,7 @@
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
-            <ol class="ol-text px-20 paragraph-ccc text-gray-500 list-decimal">
+            <ol class="ol-text px-10 xl:px-20 paragraph-ccc text-gray-500 list-decimal">
                 <!-- #1  -->
                 <li>
                     <span>
@@ -27,34 +27,34 @@
             </ol>
 
 
-                <div class="doc-img-content flex justify-center px-8 py-12">
-                  <div class="doc grid grid-cols-8 gap-8">
+            <div class="doc-img-content flex justify-center px-8 py-12">
+                <div class="docmt-10 grid grid-cols-3 2xl:grid-cols-8 xl:grid-cols-8 gap-6 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-3">
                     <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-01.png')}}" alt="">
                     </div>
-                    <div class="content-item col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-02.png')}}" alt="">
                     </div>
-                    <div class="content-item col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-01.png')}}" alt="">
                     </div>
-                    <div class="content-item col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-01.png')}}" alt="">
                     </div>
-                    <div class="content-item col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-01.png')}}" alt="">
                     </div>
-                    <div class="content-item col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-01.png')}}" alt="">
                     </div>
-                    <div class="content-item col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-02.png')}}" alt="">
                     </div>
-                    <div class="content-item col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class="content-item">
                         <img src="{{asset('assets/img/About-CCC/membership-img-03.png')}}" alt="">
                     </div>
-                  </div>
-              </div>
+                </div>
+            </div>
 
 
         </div>

@@ -7,7 +7,7 @@
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
-            <ol class="ol-text px-20 list-decimal paragraph-ccc text-gray-500 pb-20">
+            <ol class="ol-text px-10 xl:px-20 list-decimal paragraph-ccc text-gray-500 pb-20">
                 <!-- #1  -->
                 <li>
                     <span>

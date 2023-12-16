@@ -7,7 +7,7 @@
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
-            <ol class="ol-text px-20 list-decimal paragraph-ccc text-gray-500">
+            <ol class="ol-text px-10 xl:px-20 list-decimal paragraph-ccc text-gray-500">
                 <!-- #1  -->
                 <li>
                     <span>
@@ -39,7 +39,7 @@
                     </span>
                 </li>
             </ol><br>
-            <div class="paragraph-ccc text-gray-500 px-10">
+            <div class="paragraph-ccc text-gray-500 px-5 xl:px-10">
                 <span>[1]Stakeholder Sectors consist of Government Sector, Non-government/Civil society Sector, and Multinational and Bilateral Development Partner Sector. Each Sector has a number of constituencies that may change from time to time.</span><br><br><br><br>
             </div>
         </div>

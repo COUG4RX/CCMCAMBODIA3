@@ -8,9 +8,9 @@
                 <div class="hr my-5"></div>
             </div>
 
-            <p class="text-gray-500 px-20">1.The roles and responsibilities of the Country Coordinating Committee are as follows:</p><br>
+            <p class="text-gray-500 px-10 xl:px-20">1.The roles and responsibilities of the Country Coordinating Committee are as follows:</p><br>
 
-            <ol class="ol-text ps-32 pe-14 paragraph-ccc text-gray-500 pb-20" style="list-style-type: lower-alpha;">
+            <ol class="ol-text ps-20 pe-8 xl:ps-32 xl:pe-14 paragraph-ccc text-gray-500 pb-20" style="list-style-type: lower-alpha;">
                 <!-- #1  -->
                 <li>
                     <span>

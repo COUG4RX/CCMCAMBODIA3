@@ -8,7 +8,7 @@
                 <div class="hr my-5"></div>
             </div>
 
-            <div class="paragraph-ccc mt-5 px-10" style="font-size: 18px;">
+            <div class="paragraph-ccc mt-5 px-5 xl:px-10" style="font-size: 18px;">
                 <span class="text-gray-500"> The CCC shall normally hold four regular meetings per calendar year at approximately quarterly intervals. A calendar of regular meetings shall be prepared by the CCC Secretariat and circulated to all the members. In urgent situations, and with the approval of the CCC Chair, an ad hoc meeting may be called. A minimum of 3 voting members may jointly request the CCC Chair to convene an ad hoc meeting on a specific agenda. The call for regular meetings should be made at least four weeks prior to the date of the meeting. All members should receive the agenda and meeting documents by email, letter, or facsimile at least two weeks prior to each regular CCC meeting. <br><br>
 
                     The meeting will take place when a quorum of at least half plus one of the memberships of CCC is presented. <br><br>
