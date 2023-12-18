@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
     width: 5px; /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
-    background: #396b8c; /* color of the tracking area */
+    background: $signature-color; /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
     background-color: white; /* color of the scroll thumb */

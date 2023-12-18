@@ -8,7 +8,7 @@
       </h6>
     </div>
 
-    <button id="scrollToTopBtn" class="bgscrollToTopBtn fixed bottom-4 right-4 bg-blue-500 text-white p-2 rounded-full hidden">
+    <button id="scrollToTopBtn" class="bgscrollToTopBtn fixed bottom-4 right-4 text-white p-2 rounded-full hidden">
       <i class="fa-solid fa-angles-up scroll-top"></i>
     </button>
   </div>
