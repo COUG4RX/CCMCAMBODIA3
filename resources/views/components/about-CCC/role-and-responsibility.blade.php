@@ -2,15 +2,17 @@
     <div class="container m-auto">
         <div class="page-content border bg-white shadow text-lg">
             <div class="head-titles text-center">
-                <h1 class="font-extrabold pt-20 text-9xl">Role and Responsibility</h1>
+                <h1 class="font-extrabold pt-20 text-9xl px-5">Role and Responsibility</h1>
             </div>
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
 
-            <p class="text-gray-500 px-10 xl:px-20">1.The roles and responsibilities of the Country Coordinating Committee are as follows:</p><br>
+            <ol class="text-gray-500 px-10 xl:px-20 list-decimal">
+                <li>The roles and responsibilities of the Country Coordinating Committee are as follows:</li>
+            </ol><br>
 
-            <ol class="ol-text ps-20 pe-8 xl:ps-32 xl:pe-14 paragraph-ccc text-gray-500 pb-20" style="list-style-type: lower-alpha;">
+            <ol class="ol-text ps-20 pe-8 xs:ps-16 xs:pe-5 xl:ps-32 xl:pe-14 paragraph-ccc text-gray-500 pb-20" style="list-style-type: lower-alpha;">
                 <!-- #1  -->
                 <li>
                     <span>

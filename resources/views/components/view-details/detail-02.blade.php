@@ -4,13 +4,13 @@
             <!-- laptop display  -->
             <div class="col-span-3 md:col-span-2 lg:col-span-2 xl:col-span-2  justify-between items-center control-card-right bg-transparent shadow-none">
                 <div class=" detail-activity bg-white border">
-                    <h4 class="text-color-custom2 font-bold p-5" style="font-size: 22px; color:#396B8C;">Cambodia in partnership with stakeholder constituencies, to promote efficient program implementation, to avoid duplication by harmonizing
+                    <h4 class="text-color-custom2 font-bold p-3 xl:p-5" style="font-size: 22px; color:#396B8C;">Cambodia in partnership with stakeholder constituencies, to promote efficient program implementation, to avoid duplication by harmonizing
                     </h4>
                     <div class="flex detail-social items-center flex-col xs:items-start xl:items-start justify-start sm:flex-row sm:justify-between xl:flex-row xl:justify-between px-5">
                         <div class="date text-gray-500 py-3">
                             <i class="fa-regular fa-calendar"></i> Thursday, 1st June 2023
                         </div>
-                        <div class=" icon-social px-10 xs:px-0 md:px-0 lg:px-0 xl:px-0 grid grid-cols-4 xs:grid-cols-3 py-3 justify-between items-center xs:items-start text-center gap-5 md:gap-1 w-50">
+                        <div class="icon-social xs:px-3 md:px-0 lg:px-0 xl:px-0 grid grid-cols-4 xs:grid-cols-3 py-3 justify-between items-center xs:items-start text-center gap-x-6 gap-y-5 md:gap-1 w-50">
                             <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fccmcambodia.org%2Fmedia%2Fnews%2Fdetail%2Fthe-ccc-shall-normally-hold-four-regular-meetings-per-calendar-year-at-approximately-quarterly-intervals-a-calendar-of-regular-meetings-shall-be-prepared-by-the-ccc-6493b5bd6bdfe" class="facebook col-span-2 xs:col-span-1 w-28 rounded-2xl py-1 text-white" style="background-color: #4267B2;"><i class="fa-brands fa-facebook-f"></i> facebook</a>
                             <a href="https://telegram.me/share/url?url=https%3A%2F%2Fccmcambodia.org%2Fmedia%2Fnews%2Fdetail%2Fthe-ccc-shall-normally-hold-four-regular-meetings-per-calendar-year-at-approximately-quarterly-intervals-a-calendar-of-regular-meetings-shall-be-prepared-by-the-ccc-6493b5bd6bdfe" class="telegram col-span-2 xs:col-span-1 w-28 rounded-2xl py-1 text-decoration-none text-white" style="background-color: #0088CC;"><i class="fa-brands fa-telegram"></i> telegram</a>
                             <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fintent%2Ftweet%3Ftext%3Dhttps%253A%252F%252Fccmcambodia.org%252Fmedia%252Fnews%252Fdetail%252Fthe-ccc-shall-normally-hold-four-regular-meetings-per-calendar-year-at-approximately-quarterly-intervals-a-calendar-of-regular-meetings-shall-be-prepared-by-the-ccc-6493b5bd6bdfe" class="twitter xs:col-span-1 rounded-2xl py-1 w-24 text-decoration-none text-white" style="background-color: #1DA1F2;"><i class="fa-brands fa-twitter"></i> twitter</a>

@@ -2,7 +2,7 @@
     <div class="container m-auto">
         <div class="page-content border bg-white shadow text-lg py-12">
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-3 mt-5 justify-center items-center w-full px-5 pb-20 gap-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-3 mt-5 justify-center items-center w-full px-10 pb-20 gap-5">
 
                 <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3 xl:py-5">
                     <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">

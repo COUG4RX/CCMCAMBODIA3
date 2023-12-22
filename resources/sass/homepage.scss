@@ -40,6 +40,7 @@
 .head-titles h1 {
     color: $signature-color;
     font-size: 33px;
+    line-height: 1.2 !important;
 }
 .hr {
     max-width: 600px;
@@ -50,19 +51,20 @@
 .card-img {
     width: 100%;
     height: 250px;
+    img {
+        overflow: hidden;
+        transition: 0.4s;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-img-hvr {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .card-img-hvr:hover img {
+        transform: scale(1.1);
+    }
 }
-.card-img img {
-    overflow: hidden;
-    transition: 0.4s;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.card-img-hvr {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.card-img-hvr:hover img {
-    transform: scale(1.1);
-}
+

@@ -2,7 +2,7 @@
     <div class="container m-auto">
         <div class="page-content border bg-white shadow text-lg">
             <div class="head-titles text-center">
-                <h1 class="font-extrabold pt-20 text-9xl">CCC Meeting</h1>
+                <h1 class="font-extrabold pt-20 text-9xl px-5">CCC Meeting</h1>
             </div>
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>

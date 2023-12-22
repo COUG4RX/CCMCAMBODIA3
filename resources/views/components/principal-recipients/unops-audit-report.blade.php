@@ -2,7 +2,7 @@
     <div class="container m-auto">
         <div class="page-content py-3 border bg-white">
             <div class="head-titles text-center">
-                <h1 class="font-extrabold pt-20 text-9xl">Audit Report</h1>
+                <h1 class="font-extrabold pt-20 text-9xl px-5">Audit Report</h1>
             </div>
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>

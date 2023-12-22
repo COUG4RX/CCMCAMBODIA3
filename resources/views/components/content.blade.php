@@ -57,7 +57,7 @@
         </div>
 
         <!-- below desktop -->
-        <div class="swiper2 block lg:px-5 mt-10 md:hidden lg:hidden xl:hidden  ">
+        <div class="swiper2 block lg:px-5 mt-10 sm:block md:hidden lg:hidden xl:hidden  ">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <!-- slide 1 -->

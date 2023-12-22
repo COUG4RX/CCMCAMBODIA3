@@ -1,7 +1,7 @@
 <section>
     <div class="container m-auto my-20">
         <div class="head-titles text-center">
-            <h1 class="font-extrabold text-9xl">Activity</h1>
+            <h1 class="font-extrabold text-9xl px-5">Activity</h1>
         </div>
         <div class="customize-hr flex justify-center mb-8">
             <div class="hr my-5"></div>

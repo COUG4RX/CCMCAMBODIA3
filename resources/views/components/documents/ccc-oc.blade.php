@@ -44,7 +44,7 @@
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>2nd CCC-OC meeting minutes March 4,</h6>
+                            <h6 class="pe-2">2nd CCC-OC meeting minutes March 4,</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -58,7 +58,7 @@
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>4th CCC-OC meeting minutes July 8</h6>
+                            <h6 class="pe-2">4th CCC-OC meeting minutes July 8</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -71,7 +71,7 @@
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>Minutes of 1st CCC-OC meeting 16 February</h6>
+                            <h6 class="pe-2">Minutes of 1st CCC-OC meeting 16 February</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -79,12 +79,13 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+                    
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>Minutes of 1st CCC-OC meeting 16 February 2018 (term 2018-2019)</h6>
+                            <h6 class="pe-2">Minutes of 1st CCC-OC meeting 16 February</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -92,12 +93,13 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>11th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">11th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -105,12 +107,13 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>10th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -118,12 +121,12 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>10th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -131,12 +134,12 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>10th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -144,12 +147,12 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>10th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -157,12 +160,12 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>10th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -170,12 +173,12 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>10th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -183,12 +186,116 @@
                             </span>
                         </div>
                     </div>
-                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5">
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
                         <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
                             <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
                         </div>
                         <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
-                            <h6>10th CCC Oversight Committee Meeting Minutes</h6>
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
+                            <span class="text-gray-500 font-light">Link File:
+                                <span class="ms-2">
+                                    <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="member-list col-span-1 sm:col-span-1 md:col-span-2 lg:col-span-2 xl:col-span-1 border shadow oversight-plan-link flex h-auto gap-5 py-3">
+                        <div class="member-list-img h-[80px] sm:h-[80px] md:h-[80px] lg:h-[80px] xl:h-[80px] w-[90px] sm:w-[90px] md:w-[90px] lg:w-[90px] xl:w-[90px] m-auto ms-5">
+                            <img src="{{asset('assets/img/Committees/pdf.png')}}" alt="">
+                        </div>
+                        <div class="member-list-text w-full sm:w-[80%] md:w-[80%] lg:w-[80%] xl:w-[80%] my-3">
+                            <h6 class="pe-2">10th CCC Oversight Committee Meeting Minutes</h6>
                             <span class="text-gray-500 font-light">Link File:
                                 <span class="ms-2">
                                     <a href="https://ccmcambodia.org/file_manager/CCC%20Membership%20list%20Jan2021-Dec2023%20(3)-8473fd4c-6571-470e-bd00-3f9acf78f8a5.pdf" class="px-2 border rounded"> <span class="file-link font-normal">File</span></a>
@@ -203,7 +310,7 @@
 
         <!-- below desktop -->
 
-        <div class="scroll-menu-overflow shadow-none flex justify-start overflow-scroll items-start gap-3 ms-3 me-10 bg-white md:hidden lg:hidden xl:hidden xxl:hidden">
+        <div class="scroll-menu-overflow shadow-none flex justify-start overflow-x-scroll items-start gap-3 ms-3 me-10 bg-white md:hidden lg:hidden xl:hidden xxl:hidden">
             <div class="control-scroll flex justify-center items-center ms-0">
                 <div class="element-of-scroll flex justify-center items-center rounded-3xl ms-2">
                     <h5 class="flex items-center text-gray-700">Meeting Minute 2023</h5>
@@ -416,7 +523,7 @@
                     </span>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>

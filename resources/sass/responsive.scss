@@ -1,6 +1,20 @@
 // Extra small devices (portrait phones, less than 576px)
 // sm
 @media (max-width: 575.98px) {
+    .customize-hr hr{
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+    .head-titles{
+        h1{
+            font-size: 22px !important;
+        }
+    }
+    .member-list-text{
+        h6{
+            padding-inline-end: 0.5rem/* 8px */;
+        }
+    }
     .bg-responsive-menu {
         width: 100%;
         backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
@@ -40,32 +54,29 @@
         width: 95%;
         height: 100px;
     }
-
     .element-of-scroll {
         width: 200px;
         height: 45px;
         border: 1px solid $signature-color !important;
     }
-    /* Apply styles to the scrollbar for WebKit browsers */
-    // ::-webkit-scrollbar {
-    //     width: 5px;
-    //     height: 5px;
-    //   }
-
-    //   ::-webkit-scrollbar-thumb {
-    //     background-color: white;
-    //     border-radius: 10px;
-    //   }
-
-    //   ::-webkit-scrollbar-track {
-    //     background-color: $signature-color;
-    //     // border-radius: 10px;
-    //   }
+    .sub-dropdown-responsive {
+        a {
+            i {
+                font-size: 8px !important;
+            }
+        }
+    }
+    // Apply styles to the scrollbar for WebKit browsers */
 }
 
 // Small devices (landscape phones, 576px and up)
 // md
 @media (max-width: 767.98px) {
+    .bg-responsive-menu {
+        width: 100%;
+        backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+        background-color: #312e2e44; /* Adjust the background color and opacity as needed */
+    }
     .swiper {
         .swiper-slide {
             width: 100%;
@@ -118,6 +129,28 @@
         top: -46px;
         left: 70px;
     }
+    .sub-dropdown-responsive {
+        a {
+            i {
+                font-size: 8px !important;
+            }
+        }
+    }
+    // Apply styles to the scrollbar for WebKit browsers */
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: $signature-color;
+        border-radius: 10px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -132,28 +165,18 @@
         }
     }
 }
+
 // large devices ( desktops, 1200px and up)
 // xl
 @media (max-width: 1199.98px) {
     .responsive-text-drop-down {
         font-size: 12px;
     }
+    
 }
 
 // Extra large devices (large desktops, 1200px and up)
 // xxl
 @media (min-width: 1200px) {
 }
-.btn-custom {
-    width: 70% !important;
-    height: auto;
-}
-.angle-right {
-    position: absolute;
-    right: 0%;
-}
-.feather {
-    width: 24px;
-    height: 24px;
-    fill: #333; /* Change the color as needed */
-}
+

@@ -2,7 +2,7 @@
     <div class="container m-auto">
         <div class="page-content py-3 bg-white pt-20 px-10 pb-14">
             <div class="head-titles text-center">
-                <h1 class="font-extrabold text-9xl">Career</h1>
+                <h1 class="font-extrabold text-9xl px-5">Career</h1>
             </div>
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>

@@ -2,13 +2,11 @@
     <div class="container m-auto">
         <div class="page-content border bg-white shadow text-lg">
             <div class="head-titles text-center">
-                <h1 class="font-extrabold pt-20 text-9xl">CCC-OC Member List</h1>
+                <h1 class="font-extrabold pt-20 text-9xl px-5">CCC-OC Member List</h1>
             </div>
             <div class="customize-hr flex justify-center mb-8">
                 <div class="hr my-5"></div>
             </div>
-
-
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-3 mt-5 justify-center items-center w-full px-5 pb-20 gap-5">
 
